@@ -18,6 +18,7 @@ Here are a list of ideas for integrations, scripts, reports, etc that have been 
 - Auto "Change Recovery VRA" for High priority VPGs after X minutes of VRA downtime
 
 ## Integrations
+- Nuclear football for Zerto Failover (PLEASE build this! LOL)
 - Turbonomic
 - Service Now
 - Your NOC monitoring platform
