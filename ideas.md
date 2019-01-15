@@ -16,6 +16,7 @@ Here are a list of ideas for integrations, scripts, reports, etc that have been 
 - SSL Certificate Replacement Wizard
 - Multi-VPG Runbook Script with Intelligent "waiting" between VPGs
 - Auto "Change Recovery VRA" for High priority VPGs after X minutes of VRA downtime
+- Map protected virtual machines to recovery site VRA/hypervisor host
 
 ## Integrations
 - Nuclear football for Zerto Failover (PLEASE build this! LOL)
