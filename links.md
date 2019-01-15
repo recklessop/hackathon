@@ -1,6 +1,6 @@
 # Links
 
-[Hackathon Homepage](https://github.com/recklessop/hackathon)
+[Return to Hackathon Homepage](https://github.com/recklessop/hackathon)
 
 ## Official Zerto Documentation
 
