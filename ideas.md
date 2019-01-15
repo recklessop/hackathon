@@ -2,6 +2,8 @@
 
 Here are a list of ideas for integrations, scripts, reports, etc that have been asked for in the past.
 
+[Return to Hackathon Homepage](https://github.com/recklessop/hackathon)
+
 ## Scripts
 - Multi-VM Application consistency
 - SAP User checkpoints
