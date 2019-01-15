@@ -10,7 +10,7 @@ Here are a list of ideas for integrations, scripts, reports, etc that have been 
 - (Your App Here) User checkpoints
 - Change VPG settings across all (or many) VPGs
 - Export/Import vpgs (without relying on vCenter UUIDs)
-- Load balance recovery site VRAs (based on CPU load, or number of recovery disks, or network throughput)
+- Load balance recovery site VRAs (based on CPU load, or number of recovery disks, or network throughput, or Amount of Protected Storage)
 - Post-failover script that adds custom parameters to recovery site VMX file
 - Public Cloud Guest VM Healthcheck/Preparedness Script
 - SSL Certificate Replacement Wizard
