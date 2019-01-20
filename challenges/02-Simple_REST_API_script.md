@@ -1,4 +1,4 @@
-# Challenge #1 - List paired sites with a PowerShell Script
+# Challenge #2 - List paired sites with a PowerShell Script
 
 ## Overview
 
