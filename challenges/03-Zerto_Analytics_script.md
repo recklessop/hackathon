@@ -17,4 +17,4 @@ If you have a self signed SSL certificate on your ZVM you will want to use "-Ski
 
 ## Solution
 
-[Solution](https://github.com/Zerto-TA-Public/Script-Templates/blob/master/Template-REST-From-PoSH.ps1)
+[Solution](https://github.com/Zerto-TA-Public/Script-Templates/blob/master/Template-Zerto-Analytics-REST.ps1)
