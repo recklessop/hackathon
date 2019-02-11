@@ -1,12 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import requests
 import json
 import time
 import unicornhat as unicorn
+from datetime import datetime
 
-zaUser = "email@addr.com"
-zaPass = "password"
+zaUser = "justin@jpaul.me"
+zaPass = "Zertodata1!"
 
 api_url_base = "https://analytics.api.zerto.com"
 api_token = ''
@@ -47,7 +48,7 @@ def za_get_vpgs_health(api_token):
 
 def draw_vpgs(healthy, warn, error):
     total = healthy + warn + error
-
+    unicorn.clear()
     for y in range(height):
         for x in range(width):
             if error > 0:
@@ -59,9 +60,6 @@ def draw_vpgs(healthy, warn, error):
             elif healthy > 0:
                 unicorn.set_pixel(x,y,0,255,0)
                 healthy -= 1
-            else:
-                unicorn.set_pixel(x,y,0,0,0)
-
     unicorn.show()
 
 # main loop
@@ -74,6 +72,8 @@ while True:
     warning = vpgs["warnedVpgsCount"]
     error = vpgs["erroneousVpgsCount"]
 
+    print(str(datetime.now()).split('.')[0])
+    print("{} Errors, {} Warnings, {} Healthy".format(error, warning, healthy))
     draw_vpgs(healthy, warning, error)
 
     time.sleep(30)
