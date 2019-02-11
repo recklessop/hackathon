@@ -6,8 +6,8 @@ import time
 import unicornhat as unicorn
 from datetime import datetime
 
-zaUser = "justin@jpaul.me"
-zaPass = "Zertodata1!"
+zaUser = "my@email.com"
+zaPass = "password"
 
 api_url_base = "https://analytics.api.zerto.com"
 api_token = ''
